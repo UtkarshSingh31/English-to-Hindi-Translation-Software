@@ -1,0 +1,5 @@
+.venv/
+data/output
+data/input
+model/best_helsinki_model/model.safetensors
+
