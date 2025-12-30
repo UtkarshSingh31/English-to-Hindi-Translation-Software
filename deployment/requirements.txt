@@ -1,0 +1,4 @@
+transformers[sentencepiece]>=4.44.0
+torch>=2.1.0
+gradio
+numpy<2.0
