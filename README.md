@@ -18,7 +18,8 @@ This project addresses the critical need for accessible multilingual public info
 - Public service information
 - Legal and administrative text
 
-**Live Demo:** [Try it on Hugging Face Spaces](https://huggingface.co/spaces/utkarshsingh0013/enghindpublictranslation)
+**Live Demo:** [Click here for live demo.](https://huggingface.co/spaces/utkarshsingh0013/enghindpublictranslation)
+
 **Model:** (https://huggingface.co/utkarshsingh0013/enghind-translator)
 ---
 
