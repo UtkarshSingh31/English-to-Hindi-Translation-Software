@@ -41,18 +41,18 @@ Visit the [live deployment](https://huggingface.co/spaces/utkarshsingh0013/enghi
 ### Run Locally
 
 Clone repository
-git clone https://github.com/yourusername/english-hindi-translator.git
-cd english-hindi-translator
+git clone https://github.com/UtkarshSingh31/english-to-hindi-translation-software.git
+cd english-to-hindi-translation-software
 
 Create virtual environment
-python -m venv venv
-source venv/bin/activate # On Windows: venv\Scripts\activate
+uv venv 
+source venv/bin/activate # On Windows: .venv\Scripts\activate
 
 Install dependencies
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 
 Run application
-python app.py
+uv run app.py
 
 ---
 
@@ -61,7 +61,7 @@ python app.py
 | Component | Technology |
 |-----------|-----------|
 | **ML Framework** | PyTorch, Transformers (Hugging Face) |
-| **Translation Model** | [Helsinki Model](https://huggingface.co/Helsinki-NLP/opus-mt-en-hi) by  |
+| **Translation Model** | [Helsinki Model](https://huggingface.co/Helsinki-NLP/opus-mt-en-hi) |
 | **Web Interface** | Gradio 4.44.1 |
 | **Deployment** | Hugging Face Spaces |
 | **Language** | Python 3.10+ |
@@ -73,7 +73,7 @@ python app.py
 
 - **Base Model:** `Helsinki-NLP/opus-mt-en-hi`
 - **Architecture:** Transformer-based neural machine translation
-- **Training Data:** Custom dataset of 10,000+ English-Hindi public notice pairs
+- **Training Data:** Custom dataset of 4000+ English-Hindi public notice pairs
 - **Performance:** Optimized for formal and administrative language
 
 ### Data Pipeline
