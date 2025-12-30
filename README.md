@@ -13,12 +13,11 @@ pinned: false
 
 This Space translates formal English public notices to Hindi using a fine-tuned MarianMT model.
 
-**Model:** [utkarshsingh0013/enghind-translator](https://huggingface.co/utkarshsingh0013/enghind-translator")
-)
+**Model:** [utkarshsingh0013/enghind-translator](https://huggingface.co/utkarshsingh0013/enghind-translator)
 
 ## Usage
 
-Enter English text for government announcements, public notices, or formal statements, and get Hindi translations.
+Enter English text for government announcements, public notices, or formal statements.
 
 ## Examples
 - Notice: The office will remain closed on Republic Day.
