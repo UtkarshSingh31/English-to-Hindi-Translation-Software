@@ -3,7 +3,7 @@ from transformers import MarianMTModel, MarianTokenizer
 
 # Load YOUR fine-tuned model
 print("Loading fine-tuned model...")
-model_name = "utkarshsingh0013/enghind-translator"
+model_name = "utkarshsingh0013/enghind-translator
 tokenizer = MarianTokenizer.from_pretrained(model_name)
 model = MarianMTModel.from_pretrained(model_name)
 
