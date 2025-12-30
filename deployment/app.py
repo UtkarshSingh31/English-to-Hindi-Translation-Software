@@ -17,7 +17,7 @@ demo = gr.Interface(
     fn=translate,
     inputs=gr.Textbox(label="English Public Notice", placeholder="Enter English notice text..."),
     outputs=gr.Textbox(label="Hindi Translation"),
-    title="Public Notice Translator (English → Hindi)",
+    title="Public Notice Translator (English → Hindi) [AUTO-DEPLOYED]",
     description="Translate formal English public notices to Hindi using fine-tuned MarianMT model",
     examples=[
         ["Notice: The office will remain closed on Republic Day."],
