@@ -13,7 +13,8 @@ pinned: false
 
 This Space translates formal English public notices to Hindi using a fine-tuned MarianMT model.
 
-**Model:** [utkarshsingh0013/enghind-translator-public_notice](https://huggingface.co/utkarshsingh0013/enghind-translator-public_notice)
+**Model:** [utkarshsingh0013/enghind-translator](https://huggingface.co/utkarshsingh0013/enghind-translator")
+)
 
 ## Usage
 
