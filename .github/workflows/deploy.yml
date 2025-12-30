@@ -24,7 +24,7 @@ jobs:
         git clone https://huggingface.co/spaces/utkarshsingh0013/enghind-translator-public_notice
         cd enghind-translator-public_notice
         rm -rf *
-        cp -r ../deployment/* .
+        cp ../deployment/app.py ../deployment/requirements.txt ../deployment/README.md .
         git add .
         git commit -m "Auto-deploy from GitHub" || echo "No changes"
         git push https://utkarshsingh0013:$HF_TOKEN@huggingface.co/spaces/utkarshsingh0013/enghind-translator-public_notice main
